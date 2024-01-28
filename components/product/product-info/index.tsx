@@ -96,7 +96,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
             <div className="flex items-center gap-x-2">
                 <InfoIcon className="w-6 h-6" />
                 <div>
-                    {number} customer buyed this product this week.
+                    {number} customers purchased this product in the last week.
                 </div>
             </div>
             <div className="mt-8">
