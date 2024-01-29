@@ -54,7 +54,7 @@ const MainPreviewInfo: React.FC<MainPreviewInfoProps> = ({ product }) => {
                 <div className="flex items-center gap-x-2 mt-4 md:mt-7">
                     <InfoIcon className="w-6 h-6" />
                     <div>
-                        {number} customers purchased this product in the last week.
+                        {number} customers purchased this product.
                     </div>
                 </div>
                 <div className="md:my-6">
