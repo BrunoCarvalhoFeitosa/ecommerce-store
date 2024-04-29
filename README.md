@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/BrunoCarvalhoFeitosa/ecommerce-store">
-    <img src="\public\favicon\favicon.ico" alt="Logo" width="30" weight="30" />
+    <img src="\public\favicon\favicon.ico" alt="Logo" width="40" weight="40" />
   </a>
 
   <p align="center">
