@@ -28,7 +28,7 @@ const CommonHeader = () => {
     }
 
     return (
-        <div className={`${isOpen ? "sticky xl:fixed top-0 z-[99998]" : "relative top-0 z-[99998]"}`}>
+        <div className={`${isOpen ? "sticky xl:fixed top-0 z-[99]" : "relative top-0 z-[99]"}`}>
             <div className="relative w-full z-[99] xl:z-[9999]">
                 <header className="xl:py-6 px-8 md:px-12 xl:px-0 flex xl:flex-col justify-between w-full xl:w-32 xl:h-[100dvh] bg-black z-50">
                     <div className="flex justify-center">
