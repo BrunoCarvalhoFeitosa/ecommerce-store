@@ -22,7 +22,7 @@ const CartContent = () => {
     return (
         <div>
             {cart.items.length ? (
-                <div className="mt-12 px-6 w-full 2xl:flex 2xl:items-start gap-x-12">
+                <div className="mt-12 px-6 w-full xl:flex xl:items-start gap-x-12">
                     <CartItem />
                     <CartSummary />
                 </div>

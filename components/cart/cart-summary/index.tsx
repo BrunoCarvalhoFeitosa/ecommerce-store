@@ -35,7 +35,7 @@ const CartSummary = () => {
     }
 
     return (
-        <div className="sticky top-4 w-full mt-12 2xl:mt-0 2xl:w-[40%] bg-gray-100 h-full p-8">
+        <div className="sticky top-4 w-full mt-12 xl:mt-0 xl:w-[40%] bg-gray-100 h-full p-8">
             <div>
                 <h2 className="text-lg font-bold">
                     Order Summary

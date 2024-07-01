@@ -31,7 +31,7 @@ const MainPreviewInfo: React.FC<MainPreviewInfoProps> = ({ product }) => {
     }
 
     return (
-        <div className="py-4 2xl:py-16 px-4 md:px-6 w-full 2xl:w-[40%] h-[50dvh] 2xl:h-[100dvh]">
+        <div className="py-4 xl:py-16 px-4 md:px-6 w-full xl:w-[40%] h-[50dvh] xl:h-[100dvh]">
             <div>
                 <NikeIcon
                     width="80px"

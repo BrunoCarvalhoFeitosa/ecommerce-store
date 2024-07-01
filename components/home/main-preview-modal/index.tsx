@@ -14,7 +14,7 @@ const MainPreviewModal = () => {
 
     return (
         <Modal open={previewModal.isOpen} onClose={previewModal.onClose}>
-            <div className="flex flex-col 2xl:flex-row w-full h-full overflow-hidden">
+            <div className="flex flex-col xl:flex-row w-full h-full overflow-hidden">
                 <CommonPreviewGallery category={product.category.name} images={product.images} />
                 <MainPreviewInfo product={product} />
             </div>

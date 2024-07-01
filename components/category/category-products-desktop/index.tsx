@@ -111,7 +111,7 @@ const CategoryProductsDesktop: React.FC<CategoryProductsDesktopProps> = ({ categ
             </div>
             <div className="flex w-full">
                 {isOpen && (
-                    <div className="sticky top-0 flex flex-col space-y-7 md:w-[270px] 2xl:w-[400px] py-3 px-6 2xl:h-[75vh] width-animation overflow-y-auto">
+                    <div className="sticky top-0 flex flex-col space-y-7 md:w-[270px] xl:w-[400px] py-3 px-6 xl:h-[75vh] width-animation overflow-y-auto">
                         <div className="flex">
                             <Button className="p-0" onClick={onClose}>
                                 <XIcon className="w-5 h-5" />
@@ -143,7 +143,7 @@ const CategoryProductsDesktop: React.FC<CategoryProductsDesktopProps> = ({ categ
                 <div className="flex-1">
                     {products.length ? (
                         <div className={cn(
-                            "grid bg-gray-50 2xl:min-h-[75dvh] transition-all duration-500",
+                            "grid bg-gray-50 xl:min-h-[75dvh] transition-all duration-500",
                             gridColumns
                         )}>
                             {products.reverse().map((item) => (

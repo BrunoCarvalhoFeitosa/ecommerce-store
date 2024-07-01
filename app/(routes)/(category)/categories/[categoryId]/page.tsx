@@ -33,13 +33,13 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({ params, searchParams 
     
     return (
         <div className="w-full">
-            <div className="flex flex-col 2xl:flex-row w-full">
+            <div className="flex flex-col xl:flex-row w-full">
                 <div className="w-full">
                     <CategoryBreadcrumb
                         category={category}
                         products={products}
                     />
-                    <div className="hidden 2xl:flex w-full">
+                    <div className="hidden xl:flex w-full">
                         <CategoryProductsDesktop
                             products={products}
                             categories={categories}
@@ -47,7 +47,7 @@ const CategoryPage: React.FC<CategoryPageProps> = async ({ params, searchParams 
                             colors={colors}
                         />
                     </div>
-                    <div className="sm:block 2xl:hidden">
+                    <div className="sm:block xl:hidden">
                         <CategoryProductsMobile
                             products={products}
                             categories={categories}

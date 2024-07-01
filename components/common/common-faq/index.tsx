@@ -21,7 +21,7 @@ const CommonFaq = () => {
                         Can I pay in installments for my purchases?
                     </AccordionTrigger>
                     <AccordionContent>
-                        Yes, in up to 6 interest-free installments for Visa, Mastercard, Diners Club and Amex brands.
+                        Yes, in up to 6 interest-free for Visa, Mastercard, Diners Club and Amex.
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">

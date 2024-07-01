@@ -34,7 +34,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
 
     return (
         <div className="flex flex-col justify-between h-full py-8 px-4">
-            <div className="pb-4 2xl:pb-0">
+            <div className="pb-4 xl:pb-0">
                 <div className="flex flex-col md:flex-row md:items-center gap-x-6">
                     <div>
                         <Button
@@ -65,28 +65,28 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
                         </ul>
                     </div>
                 </div>
-                <div className="mt-8">
-                    <h3 className="mb-1 text-sm leading-none">
+                <div className="mt-6">
+                    <h2 className="mb-1 text-sm leading-none">
                         {product.category.name}
-                    </h3>
-                    <h2 className="text-[20px] md:text-[25px] font-bold leading-none">
-                        {product.name}
                     </h2>
+                    <h1 className="text-[20px] md:text-[25px] font-bold leading-none">
+                        {product.name}
+                    </h1>
                     <Separator className="mt-4 bg-black/10" />
                 </div>
                 <div className="my-5 flex items-center gap-x-2">
                     <div className="flex flex-col items-center">
-                        <h4 className="text-sm font-bold">
+                        <h3 className="text-sm font-bold">
                             Color
-                        </h4>
+                        </h3>
                         <div className="w-[30px] h-[30px]" style={{
                             background: `${product.color.value}`
                         }} />
                     </div>
                     <div className="flex flex-col items-center">
-                        <h4 className="text-sm font-bold">
+                        <h3 className="text-sm font-bold">
                             Size
-                        </h4>
+                        </h3>
                         <div className="flex justify-center items-center w-[30px] h-[30px] border">
                             {product.size.value}
                         </div>
@@ -100,7 +100,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
                 </div>
             </div>
             <div className="mt-8">
-                <div className="pb-9">
+                <div className="xl:hidden 2xl:block pb-9">
                     <h3 className="mb-3 text-lg font-bold">
                         Description
                     </h3>
@@ -118,7 +118,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({ product }) => {
                 </div>
                 <CommonFaq />
             </div>
-            <div className="mt-10 2xl:mt-5 flex items-center gap-x-1 w-full">
+            <div className="mt-10 xl:mt-5 flex items-center gap-x-1 w-full">
                 <div className="flex items-center pb-2 mr-2 md:mr-6">
                     <div className="text-sm">
                         $

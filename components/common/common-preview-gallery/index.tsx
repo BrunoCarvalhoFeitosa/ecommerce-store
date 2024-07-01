@@ -13,8 +13,8 @@ interface CommonPreviewGalleryProps {
 
 const CommonPreviewGallery: React.FC<CommonPreviewGalleryProps> = ({ category, images = [] }) => {
     return ( 
-        <div className="w-full flex-1 2xl:w-[60%] bg-[#F0F0F0]">
-            <Tab.Group as="div" className="flex h-[60vh] md:h-[48vh] 2xl:h-[100vh] overflow-hidden">
+        <div className="w-full flex-1 xl:w-[60%] bg-[#F0F0F0]">
+            <Tab.Group as="div" className="flex h-[60vh] md:h-[48vh] xl:h-[100vh] overflow-hidden">
                 <Tab.List className="h-full">
                     <ScrollArea className="w-full h-full">
                         <div className="flex flex-col justify-center items-center gap-y-[1px]">

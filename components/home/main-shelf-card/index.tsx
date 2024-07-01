@@ -28,7 +28,7 @@ const MainShelfCard: React.FC<MainShelfCardProps> = ({ product }) => {
                 <div className="text-xs text-muted-foreground">
                     {product.category.name}
                 </div>
-                <div className="mt-4 w-5/6 2xl:w-full 2xl:truncate">
+                <div className="mt-4 w-5/6 xl:w-full xl:truncate">
                     {product.name}
                 </div>
                 <div className="flex items-center">

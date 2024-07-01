@@ -13,7 +13,7 @@ interface CommonTitleProps {
 
 const CommonTitle: React.FC<CommonTitleProps> = ({ title, description, categoryName, categoryId }) => {
     return (
-        <div className="mb-20 md:mb-16 2xl:mb-10 w-full xl:w-2/5">
+        <div className="mb-20 md:mb-16 xl:mb-10 w-full xl:w-[55%] 2xl:w-2/5">
             <div className="pb-3">
                 <h2 className="text-[24px] md:text-[40px] font-bold">
                     {title}

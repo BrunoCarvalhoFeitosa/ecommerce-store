@@ -29,10 +29,10 @@ const CommonNewsletter = () => {
       }
 
     return (
-        <section className="px-4 2xl:pl-28 pb-12">
-            <div className="flex flex-col 2xl:flex-row 2xl:items-start">
-                <div className="w-full 2xl:w-[40%]">
-                    <h2 className="mb-6 text-3xl 2xl:text-6xl font-bold leading-none">
+        <section className="px-4 xl:pl-28 pb-12">
+            <div className="flex flex-col xl:flex-row xl:items-start">
+                <div className="w-full xl:w-[40%]">
+                    <h2 className="mb-6 text-3xl xl:text-6xl font-bold leading-none">
                         Newsletter
                     </h2>
                     <h3 className="text-lg font-bold">
@@ -44,7 +44,7 @@ const CommonNewsletter = () => {
                         aut, ex voluptatibus, voluptate libero ad.
                     </p>
                 </div>
-                <div className="mt-6 2xl:mt-0 flex-none 2xl:flex-1">
+                <div className="mt-6 xl:mt-0 flex-none xl:flex-1">
                     <Form {...form}>
                         <form
                             onSubmit={form.handleSubmit(onSubmit)}

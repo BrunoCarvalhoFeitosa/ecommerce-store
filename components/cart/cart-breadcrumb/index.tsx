@@ -43,9 +43,9 @@ const CartBreadcrumb = () => {
                 </div>
             </div>
             <div>
-                <h2 className="text-[30px] 2xl:text-[60px] font-bold leading-none">
+                <h1 className="text-[30px] xl:text-[60px] font-bold leading-none">
                     Shopping Cart
-                </h2>
+                </h1>
                 {cart.items.length ? (
                     <div className="mt-2 ml-3 flex items-center">
                         <p className="font-bold">

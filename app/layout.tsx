@@ -33,7 +33,7 @@ export default function RootLayout({ children }: {
     return (
         <html lang="en">
             <body className={font.className}>
-                <div className="flex flex-col 2xl:flex-row">
+                <div className="flex flex-col xl:flex-row">
                     <CommonHeader />
                     {children}
                 </div>

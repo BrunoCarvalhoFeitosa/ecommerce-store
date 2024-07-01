@@ -44,7 +44,7 @@ const CategoryBreadcrumb: React.FC<CategoryBreadcrumbProps> = ({ category, produ
                 </div>
             </div>
             <div>
-                <h2 className="text-[30px] 2xl:text-[60px] font-bold leading-none">
+                <h2 className="text-[30px] xl:text-[60px] font-bold leading-none">
                     {category.name}
                 </h2>
                 <div className="ml-2 flex items-center gap-x-1">
