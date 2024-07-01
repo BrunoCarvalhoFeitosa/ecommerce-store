@@ -53,7 +53,7 @@ const CommonProductsCard: React.FC<CommonProductsCardProps> = ({ product }) => {
                             className="w-full h-full object-cover object-top"
                         />
                     </div>
-                    <div className="absolute top-0 left-0 p-4 w-full h-full bg-black/85 opacity-0 group-hover:opacity-100 transition duration-500 z-10">
+                    <div className="absolute top-0 left-0 p-4 w-full h-full bg-black/85 opacity-0 group-hover:opacity-100 transition duration-500 z-[1]">
                         <div className="flex justify-end items-end gap-x-2 w-full h-full">
                             <IconButton
                                 onClick={onPreview}
