@@ -3,7 +3,7 @@ import { CuboidIcon, LockIcon, BarcodeIcon, TagIcon } from "lucide-react"
 
 const CommonAdvantages = () => {
     return (
-        <div className="py-16 xl:py-20 px-8 xl:px-0 xl:pl-60 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 content-center">
+        <div className="py-16 pb-24 xl:py-20 xl:pb-6 px-8 xl:px-0 xl:pl-60 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 content-center">
             <div>
                 <div className="mb-2">
                     <CuboidIcon className="w-7 h-8" />
