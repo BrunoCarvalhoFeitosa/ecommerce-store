@@ -3,7 +3,6 @@ import useCart from "@/hooks/use-cart"
 import IconButton from "@/components/ui/icon-button"
 import { Product } from "@/types"
 import { Trash2Icon } from "lucide-react"
-import { ScrollArea } from "@/components/ui/scroll-area"
 
 const CartItem = () => {
     const cart = useCart()
@@ -17,8 +16,8 @@ const CartItem = () => {
             <ul>
                 {cart.items.map((product) => (
                     <li key={product.id}>
-                        <div className="mb-8 flex border-b">
-                            <div className="relative w-16 h-16 md:w-32 md:h-32 sm:w-48 sm:h-48 rounded-md overflow-hidden">
+                        <div className="mb-8 pb-2 md:pb-0 flex flex-col md:flex-row border-b">
+                            <div className="relative w-24 h-24 md:w-32 md:h-32 sm:w-48 sm:h-48 rounded-md overflow-hidden">
                                 <img
                                     src={product.images[0].url}
                                     alt={product.name}
@@ -26,8 +25,8 @@ const CartItem = () => {
                                 />
                             </div>
                             <div className="relative flex flex-1 flex-col justify-between">
-                                <div className="flex justify-between items-center pl-4">
-                                    <div className="flex-1">
+                                <div className="flex flex-col md:flex-row justify-between items-start gap-6 md:pl-4">
+                                    <div className="md:flex-1">
                                         <h2 className="text-[14px] md:text-[20px] font-bold w-[80%] md:w-full truncate">
                                             {product.name}
                                         </h2>
@@ -44,7 +43,7 @@ const CartItem = () => {
                                             {product.size.value}
                                         </div>
                                     </div>
-                                    <div className="pl-4 md:pl-0 md:pr-4">
+                                    <div className="absolute top-0 right-0 md:relative md:pr-4">
                                         <IconButton
                                             onClick={() => handleRemove(product)}
                                             icon={<Trash2Icon size={18} />}
